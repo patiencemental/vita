@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  margin-bottom: 1rem;
+}
+
+.postCard {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.postCard img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.info {
+  width: 100%;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.time {
+  font-size: 0.8rem;
+  color: #999;
+  margin-bottom: 0.3rem;
+}
+.topics {
+  display: flex;
+}
+.topics li {
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 99em;
+  color: white;
+}
+.topics .mainTopic {
+  background-color: #d8a211;
+}
+.topics .subTopic {
+  background-color: #3d3318;
+}
